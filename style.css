@@ -92,6 +92,12 @@ ul {
     transform: scale(.9);
 }
 
+.btn:focus{
+    outline: none;
+}
+
+
+
 /* SHOWCASE */
 
 .showcase {
@@ -168,5 +174,52 @@ ul {
 .home-cards a{
     display: inline-block;
     margin-top: 20px;
+    text-align: center;
 }
 
+.home-cards .btn {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* CONTACT US */
+
+.contact-us {
+    border-top: 1px solid black;
+
+    text-align: center;
+
+}
+
+.contact-us h3 {
+    margin: 15px 0;
+}
+
+.contact-us p {
+    margin-bottom: 15px;
+}
+
+.contact-us .btn {
+    margin-bottom: 20px;
+}
+.contact-us a{
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* ABOUT US */
+
+.about-us {
+    border-top: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.about-us h3 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.about-us p:first-of-type {
+    text-align: center;
+}

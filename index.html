@@ -10,29 +10,29 @@
 			integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
 			crossorigin="anonymous"
 		/>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="modals.css">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="modals.css" />
 	</head>
 	<body>
-		<div class="container">
+		<div class="container" id="top-target">
 			<!-- NAV -->
 			<nav class="main-nav">
 				<img src="img/daialogo.png" alt="logo" class="logo" />
 
 				<ul class="main-menu">
-					<li><a href="#">Hjem</a></li>
-					<li><p id="about-btn">Om</p></li>
-					<li><p id="contact-btn">Kontakt</p></li>
+					<li><a href="#top-target">Hjem</a></li>
+					<li><a href="#about-us">Om</a></li>
+					<li><a href="#contact-us">Kontakt</a></li>
 				</ul>
 			</nav>
 
 			<!-- Showcase -->
 			<header class="showcase">
-                <h2>Data</h2>
-                <h3> Automatisering</h3>
-                <h3> Innsikt</h3>
-                <h3> Analyse</h3>
-				<a href="#" class="btn">
+				<h2>Data</h2>
+				<h3>Automatisering</h3>
+				<h3>Innsikt</h3>
+				<h3>Analyse</h3>
+				<a href="#about-us" class="btn">
 					Les mer <i class="fas fa-chevron-right"></i>
 				</a>
 			</header>
@@ -40,85 +40,101 @@
 			<!-- Home cards 1 -->
 			<section class="home-cards">
 				<div>
-                    <img src="img/analyticsbook.jpg" alt="analyse" />
-                    <div class="info-in-card">
-					<h3>Rapportering</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Tenetur tempora, praesentium eius tempore quidem
-						voluptas veniam ipsa consectetur nobis velit!
-                    </p>
-                    <a href="#" class="btn">
-                        Les mer <i class="fas fa-chevron-right"></i>
-                    </a>
-                    </div>
+					<img src="img/analyticsbook.jpg" alt="analyse" />
+					<div class="info-in-card">
+						<h3>Rapportering</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+							tempora, praesentium eius tempore quidem voluptas veniam ipsa
+							consectetur nobis velit!
+						</p>
+						<a href="#" class="btn">
+							Les mer <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
 				</div>
 				<div>
-                    <img src="img/spreadsheet.jpg" alt="analyse" />
-                    <div class="info-in-card">
-                    <h3>Automatisering</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Tenetur tempora, praesentium eius tempore quidem
-						voluptas veniam ipsa consectetur nobis velit!
-                    </p>
-                    <a href="#" class="btn">
-                        Les mer <i class="fas fa-chevron-right"></i>
-                    </a>
-                    </div>
+					<img src="img/spreadsheet.jpg" alt="analyse" />
+					<div class="info-in-card">
+						<h3>Automatisering</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+							tempora, praesentium eius tempore quidem voluptas veniam ipsa
+							consectetur nobis velit!
+						</p>
+						<button class="btn">
+							Les mer <i class="fas fa-chevron-right"></i>
+						</button>
+					</div>
 				</div>
 				<div>
-                    <img src="img/meetings.jpg" alt="analyse" />
-                    <div class="info-in-card">
-                    <h3>Effektive møter</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Tenetur tempora, praesentium eius tempore quidem
-						voluptas veniam ipsa consectetur nobis velit!
-                    </p>
-                    <a href="#" class="btn">
-                        Les mer <i class="fas fa-chevron-right"></i>
-                    </a>
-                    </div>
+					<img src="img/meetings.jpg" alt="analyse" />
+					<div class="info-in-card">
+						<h3>Effektive møter</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+							tempora, praesentium eius tempore quidem voluptas veniam ipsa
+							consectetur nobis velit!
+						</p>
+						<a href="#" class="btn">
+							Les mer <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
 				</div>
 				<div>
-                    <img src="img/analytics.jpg" alt="analyse" />
-                    <div class="info-in-card">
-                    <h3>Samle data</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Tenetur tempora, praesentium eius tempore quidem
-						voluptas veniam ipsa consectetur nobis velit!
-                    </p>
-                    <a href="#" class="btn">
-                        Les mer <i class="fas fa-chevron-right"></i>
-                    </a>
-                    </div>
+					<img src="img/analytics.jpg" alt="analyse" />
+					<div class="info-in-card">
+						<h3>Samle data</h3>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+							tempora, praesentium eius tempore quidem voluptas veniam ipsa
+							consectetur nobis velit!
+						</p>
+						<a href="#" class="btn">
+							Les mer <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
 				</div>
-            </section>
-            <div class="contact-us">
-                <h3>Kontakt oss</h3>
-                Send oss gjerne en  <a href="mailto:somemail@mail.com">e-post</a> for å se hva vi kan gjøre for deg/dere.
-            </div>
-        </div>
+			</section>
 
-        <!-- MODALS -->
-        <!-- The Modal -->
-<div id="myModal" class="modal">
-    <!-- Modal Header -->
-    <div class="modal-container">
-    <div class="modal-header">
-        <span class="close">&times;</span>
-        <h2>Kontakt</h2>
-    </div>
-    <!-- Modal content -->
-    <div class="modal-content">
-      
-      <p>Some text in the Modal..</p>
-    </div>
-</div>
-  
-  </div>
-        <script src="modals.js"></script>
+			<!-- CONTACT US -->
+			<div class="contact-us" id="contact-us">
+				<h3>Kontakt oss</h3>
+				<p>Send oss gjerne en e-post for å se hva vi kan gjøre for deg/dere.</p>
+				<a href="mailto:somemail@mail.com" class="btn"
+					>Send e-post <i class="fas fa-envelope"></i
+				></a>
+			</div>
+
+			<!-- ABOUT -->
+			<div class="about-us" id="about-us">
+				<h3>DAIA</h3>
+				<p>DAIA står for Data Automatisering, Innsikt og Analyse</p>
+				<br />
+				<p>
+					Med mange års erfaring fra ulike bransjer hvor våre konsulenter har
+					jobbet med automatisering av arbeidsoppgaver <br />
+					så har vi stor kompetanse til å hjelpe din bedrift å fjerne de
+					kjedelige oppgavene som gjerne er tidstyver.
+				</p>
+			</div>
+		</div>
+
+		<!-- MODALS -->
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- Modal Header -->
+			<div class="modal-container">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>Kontakt</h2>
+				</div>
+				<!-- Modal content -->
+				<div class="modal-content">
+					<p>Some text in the Modal..</p>
+				</div>
+			</div>
+		</div>
+		<script src="modals.js"></script>
 	</body>
 </html>
