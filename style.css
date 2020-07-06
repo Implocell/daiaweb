@@ -137,13 +137,7 @@ ul {
     grid-gap: 20px;
 }
 
-.home-cards > div{
-    border-bottom: 1px solid black;
-}
 
-.home-cards > div:last-of-type{
-    border-bottom: 0px solid black;
-}
 
 .home-cards div {
     display: flex;
@@ -182,37 +176,13 @@ ul {
     margin-top: 20px;
 }
 
-/* CONTACT US */
-
-.contact-us {
-    border-top: 1px solid black;
-
-    text-align: center;
-
-}
-
-.contact-us h3 {
-    margin: 15px 0;
-}
-
-.contact-us p {
-    margin-bottom: 15px;
-}
-
-.contact-us .btn {
-    margin-bottom: 20px;
-}
-.contact-us a{
-    display: inline-block;
-    text-align: center;
-}
 
 
 /* ABOUT US */
 
 .about-us {
-    border-top: 1px solid black;
     margin-bottom: 15px;
+    border-top: 1px solid black;
 }
 
 .about-us h3 {
@@ -222,4 +192,77 @@ ul {
 
 .about-us p:first-of-type {
     text-align: center;
+}
+
+footer {
+    float:right;
+    display: flex;
+    font-size: small;
+    margin-top: 35px;
+}
+
+footer a {
+    margin: 0 20px;
+}
+
+
+.image-credit{
+    display: flex;
+    flex-direction: column;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-container{
+  
+      margin: 15% auto;
+      width: 60%;
+  }
+  
+  .modal-header {
+      background-color: rgb(200,223,242);
+      padding: 20px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@media only screen and (max-width: 600px) {
+    .home-cards img {
+        display: none;
+    }
+    .modal-container {
+        width: 90%;
+        margin: 5% auto;
+    }
 }

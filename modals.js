@@ -43,7 +43,7 @@ meetingsBtn.onclick = function () {
 };
 
 meetingsSpan.onclick = function () {
-	reportmeetingsModalingModal.style.display = "none";
+	meetingsModal.style.display = "none";
 };
 
 // analytics events
