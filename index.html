@@ -48,9 +48,9 @@
 							tempora, praesentium eius tempore quidem voluptas veniam ipsa
 							consectetur nobis velit!
 						</p>
-						<a href="#" class="btn">
+						<button class="btn" id="reporting-btn">
 							Les mer <i class="fas fa-chevron-right"></i>
-						</a>
+						</button>
 					</div>
 				</div>
 				<div>
@@ -62,7 +62,7 @@
 							tempora, praesentium eius tempore quidem voluptas veniam ipsa
 							consectetur nobis velit!
 						</p>
-						<button class="btn">
+						<button class="btn" id="spreadsheet-btn">
 							Les mer <i class="fas fa-chevron-right"></i>
 						</button>
 					</div>
@@ -76,9 +76,10 @@
 							tempora, praesentium eius tempore quidem voluptas veniam ipsa
 							consectetur nobis velit!
 						</p>
-						<a href="#" class="btn">
+
+						<button class="btn" id="meetings-btn">
 							Les mer <i class="fas fa-chevron-right"></i>
-						</a>
+						</button>
 					</div>
 				</div>
 				<div>
@@ -90,9 +91,9 @@
 							tempora, praesentium eius tempore quidem voluptas veniam ipsa
 							consectetur nobis velit!
 						</p>
-						<a href="#" class="btn">
+						<button class="btn" id="analytics-btn">
 							Les mer <i class="fas fa-chevron-right"></i>
-						</a>
+						</button>
 					</div>
 				</div>
 			</section>
@@ -121,17 +122,112 @@
 		</div>
 
 		<!-- MODALS -->
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
+		<!-- Reporting modal -->
+		<div id="reporting-modal" class="modal">
 			<!-- Modal Header -->
 			<div class="modal-container">
 				<div class="modal-header">
 					<span class="close">&times;</span>
-					<h2>Kontakt</h2>
+					<h2>Rapportering</h2>
 				</div>
 				<!-- Modal content -->
 				<div class="modal-content">
-					<p>Some text in the Modal..</p>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+						veniam, ut nobis quae eius voluptatibus. Voluptate delectus dolorem
+						facere neque quis modi dignissimos repudiandae. Sequi sunt vel
+						blanditiis rerum repellat exercitationem temporibus et laborum qui
+						eligendi obcaecati pariatur maxime suscipit quia quisquam, quibusdam
+						cupiditate, debitis eaque, voluptatibus voluptatum molestias tempora
+						consequatur corrupti doloribus! Iure optio aliquid sed itaque ipsa
+						iste, nesciunt asperiores praesentium. Eum tenetur ullam corrupti
+						esse minus nemo! Minus expedita commodi asperiores, qui nemo sunt
+						vero reprehenderit ex, sit porro sint? Expedita, voluptatibus
+						aspernatur, delectus molestias atque accusamus aperiam harum nihil
+						laborum eveniet laudantium cumque repellendus ratione est?
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- Spreadsheet modal -->
+		<div id="spreadsheet-modal" class="modal">
+			<!-- Modal Header -->
+			<div class="modal-container">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>Automatisering</h2>
+				</div>
+				<!-- Modal content -->
+				<div class="modal-content">
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+						culpa, est adipisci inventore temporibus consectetur sit magni
+						asperiores nobis quo iusto quidem ex quam similique nam eligendi
+						beatae! Temporibus error vitae porro explicabo eos aspernatur non
+						quos, delectus possimus est doloribus neque, earum minima? Ducimus
+						numquam dolorem nemo perspiciatis libero, dolores necessitatibus
+						quod voluptatum beatae quaerat quibusdam eaque iste illo illum
+						reprehenderit accusantium delectus vel ab qui. Quaerat tempora iusto
+						distinctio ab officiis, voluptatem quasi pariatur temporibus dolor
+						omnis molestiae, nulla veritatis deleniti nobis et accusamus!
+						Temporibus modi officiis dolor sit molestiae, quibusdam voluptatum
+						accusantium pariatur vero voluptates recusandae sequi!
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- Meeting modal -->
+		<div id="meetings-modal" class="modal">
+			<!-- Modal Header -->
+			<div class="modal-container">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>Effektive møter</h2>
+				</div>
+				<!-- Modal content -->
+				<div class="modal-content">
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
+						molestiae quasi commodi odio dolore voluptates optio explicabo
+						dignissimos asperiores numquam voluptatibus voluptas repudiandae
+						odit error quis. Alias veritatis, quisquam sapiente, sed ullam
+						maxime ex fugiat, molestias a temporibus aspernatur vero ut
+						consectetur cum facilis sint quae nisi debitis aliquid eaque. Harum
+						repellendus rerum aliquam a? Omnis itaque possimus quisquam natus
+						dicta sint dolores quibusdam, expedita ut dolor explicabo assumenda,
+						nesciunt dolore voluptas aspernatur dignissimos voluptates ipsam
+						quas maxime! Voluptate consectetur sint, laudantium impedit totam
+						nulla in quidem tempora, molestiae, doloribus atque et culpa fugiat?
+						Aspernatur, accusantium. Veritatis tenetur quibusdam inventore.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- Analytics modal -->
+		<div id="analytics-modal" class="modal">
+			<!-- Modal Header -->
+			<div class="modal-container">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+					<h2>Samle data</h2>
+				</div>
+				<!-- Modal content -->
+				<div class="modal-content">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+						eaque soluta! Consectetur, dignissimos deleniti repellendus
+						asperiores tempora rem assumenda fugit impedit minima pariatur nisi?
+						Itaque sed nemo aliquid ducimus? Voluptas mollitia molestiae
+						exercitationem. Perspiciatis nobis ipsam possimus vel voluptates
+						porro nesciunt ad accusantium. Quasi eum quaerat laudantium
+						provident culpa, voluptatum debitis velit explicabo omnis
+						consequuntur neque perspiciatis qui assumenda quo asperiores illo
+						earum voluptatibus ipsam cum vero quibusdam recusandae corporis id
+						ea? Quae totam vel dolorum, ut unde deserunt adipisci ratione,
+						facilis obcaecati praesentium accusamus voluptas reiciendis fugit
+						magni et voluptatibus velit autem sunt, tenetur quasi. Id quae earum
+						voluptatibus?
+					</p>
 				</div>
 			</div>
 		</div>
