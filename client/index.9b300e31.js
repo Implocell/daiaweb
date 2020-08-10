@@ -1,0 +1,1 @@
+function t(t){return t<.5?4*t*t*t:.5*Math.pow(2*t-2,3)+1}function e(e,{delay:n=0,duration:o=400,easing:a=t,amount:i=5,opacity:r=0}){const u=getComputedStyle(e),c=+u.opacity,l="none"===u.filter?"":u.filter,p=c*(1-r);return{delay:n,duration:o,easing:a,css:(t,e)=>`opacity: ${c-p*e}; filter: ${l} blur(${e*i}px);`}}export{e as b};
